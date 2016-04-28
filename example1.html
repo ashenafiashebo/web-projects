@@ -10,7 +10,176 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+   <!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsiv Layout Project</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="picturefill.min.js" async></script>
+</head>
+<body>
+	<header id="top" class="main-header">
+		<h1 class="name"><a href="#">Ashenafi</a></h1>
+		<ul class="main-nav">
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="index.html" class="selected">PORTFOLIO</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	</header><!--/.main-header-->   
+
+	<div class="banner">
+    <picture>
+       <source
+         
+        media="(orientation: landscape)"
+        srcset="banner-large.jpg 2048w,
+                banner-medium.jpg 1448w,
+                banner-small.jpg 878w"
+        sizes="(min-width:1150px) 768px, 320px"
+         />
+       
+       <source
+        
+        srcset="banner-square-large.jpg 1232w,
+                banner-square-medium.jpg 923w"
+        sizes="(min-width:1150px) 768px"
+
+         />
+         <img
+
+         src="banner-medium.jpg"
+         alt="photograph of Ashenafi Ashebo infront of  trees."
+         class="banner-image"
+         />
+       
+      </picture>
+	<span class="tagline">Hi! I'm a front-end developer who loves responsive design and css.
+		I recently finished learning front-end web development at Treehouse and I am excited to put all my skills to use!.</span>
+	</div><!--/.banner-->
+	<div class="row-portfolio">
+	<h4>PORTFOLIO</h4>	
+	</div>
+	<div class="row">
+	       
+	        <div class="gallery-1 gallery ">
+	               <ul> 
+	                    <li>
+		                <a href="portfolio-1.png">
+		                 
+				   <img class= "image-feat" src="portfolio-1.png" alt="">
+				   <h3>Marketing Page</h3>
+				   <p>This project shows the front page of a markieting website meant 
+				   for a specific business I'm interested in.</p>
+			
+		                </a>
+		             </li>
+		      </ul> 
+		</div>
+		<div class="gallery-2 gallery ">
+		     
+			<ul> 
+			    <li>
+			       <a href="portfolio-2.png">
+			        
+			           <img class="image-feat" src="portfolio-2.png" alt="">
+				   <h3>Search Page</h3>
+				   <p>This project searches through a specific database to find information that 
+				   the user is trying to lookup.</p>
+			
+				</a>
+			    </li>
+		        </ul>
+		</div>
+		<div class="gallery-3 gallery ">
+	                <ul>
+	                   <li>
+			     <a href="portfolio-3.png">
+			 
+				<img class="image-feat" src="portfolio-3.png" alt="">
+				<h3>Travel App</h3>
+				<p>This project compares travel times based on differnt transportation methods and 
+				tells you the best one.</p>
+			
+		            </a>
+		           </li>
+                         </ul>
+		</div>
+		<div class="gallery-4 gallery">
+		       <ul>
+		       	    <li>
+			     <a href="portfolio-4.png">
+			     
+				<img class="image-feat" src="portfolio-4.png" alt="">
+				<h3>Map of Favorite Spots</h3>
+				<p>This project uses mapping apis to plot points for my favorite spots in 
+				the city for a do-it-yourself walking tour.</p>
+			
+			     </a>
+			   </li>
+			</ul>
+		
+		</div>
+		<div class="gallery-5 gallery ">
+		        <ul>
+		            <li>
+			      <a href="portfolio-5.png">
+			
+				<img class="image-feat" src="portfolio-5.png" alt="">
+				<h3>Photo Gallery</h3>
+				<p>This project shows pictures from a recent trip to the viewer and 
+				allows them to easily navigate through photos.</p>
+			
+			      </a>
+			    </li>
+			</ul>
+	
+		</div>
+		<div class="gallery-6 gallery">
+	                <ul>
+	                	<li>
+			      <a href="portfolio-6.png">
+		
+				<img class="image-feat" src="portfolio-6.png" alt="">
+				<h3>Calculator</h3>
+				<p>Someone can enter in the numbers they want, and press 
+				the big blue button and get the result.</p>
+			
+			      </a>
+			   </li>
+			</ul>
+	
+	        </div>
+	        
+	</div><!--/.row-->
+	<div class="banner-footer">
+		<p><b>CONTACT</b></p>
+		<p>If you are interested in chatting or want more information
+		about what I've been working on, I'd love to hear from you!</p>
+		<p>Phone <b>+1(403)630-9566</b></p>
+		<p>Email <b>chemaki123@gmail.com</b></p>
+	</div><!--/.banner-footer-->
+	<div class="banner-footer-2">
+	       
+        </div><!--/.banner-footer-2-->
+	
+	<footer class="main-footer">
+
+	        <h1 class="footer-name"><a href="#">Ashenafi</a></h1>	
+		<ul class="main-nav-footer">
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="index.html" class="selected">PORTFOLIO</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+	        <a href="#top"><b>Back to Top</b></a>
+	</footer>
+	
+</body>
+</html>
+
+      
+
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
